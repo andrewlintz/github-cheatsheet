@@ -5,7 +5,7 @@ Setting up a local repo to github repo
 
 $ git init
 
-$ git add .
+$ git add .  
   # Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
   
 $ git commit -m "First commit"
