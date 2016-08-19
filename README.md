@@ -1,7 +1,7 @@
 # github-cheatsheet
 This holds all the bells and whistles tricks i've discovered in how to use github
 
-Setting up a local repo to github repo
+Pushing up an existing local repo to a new github repo
 
 $ git init
 
