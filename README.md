@@ -1,14 +1,17 @@
 # github-cheatsheet
 
-Setting up a New Repo on Github. 
-1) Create repo on Github
-  - check "initialize this repo w/ a readme.md
-2) copy the HTTPS clone URL
-3) in terminal navigate to the directory you want to clone the repository 
-    - cd = change directory 
-    - cd .. = navigate up in hierachy 
-    - ls = shortlisting
-    - More commands found here = https://github.com/0nn0/ter)minal-mac-cheatsheet
+Setting up a New Repo on Github.   
+
+1) Create repo on Github  
+  - check "initialize this repo w/ a readme.md 
+  
+2) copy the HTTPS clone URL  
+
+3) in terminal navigate to the directory you want to clone the repository   
+    - cd = change directory  
+    - cd .. = navigate up in hierachy  
+    - ls = shortlisting  
+    - More commands found here = https://github.com/0nn0/ter)minal-mac-cheatsheet  
 
 $git clone [URL]  
 - makes a copy of the remote repo locally
