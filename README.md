@@ -72,7 +72,8 @@ hit esc:wq
 
 
 
-on master Branch  
+Pull Requests
+
 $ git pull  
 $ git branch  
 - lists all the branches
