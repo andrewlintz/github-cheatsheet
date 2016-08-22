@@ -16,6 +16,7 @@
 <br> </br>
 
 <strong>Common Commands</stron>
+
 $git clone [URL]  
   - makes a copy of the remote repo locally
 
