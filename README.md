@@ -15,7 +15,7 @@
   - More commands found here = https://github.com/0nn0/ter)minal-mac-cheatsheet 
 <br> </br>
 
-<strong>Common Commands</stron>
+Common Commands
 
 $git clone [URL]  
   - makes a copy of the remote repo locally
