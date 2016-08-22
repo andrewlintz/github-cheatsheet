@@ -59,4 +59,51 @@ $ git remote -v
 $ git push -u origin master  
   # Pushes the changes in your local repository up to the remote repository you specified as the origin
 
+
 <stron>Merge Conflicts</stron>
+
+Manually revise the conflict, save file, enter 
+$ git add -A
+$ git commit"    [with no comment]
+$ git push
+
+If ever in the strange zone after commiting with out message:
+hit esc:wq
+
+
+
+on master Branch  
+$ git pull  
+$ git branch  
+- lists all the branches
+
+$ git branch [give a name for branch]  
+- makes a complete copy of the Master for you to work on.  
+
+$ git checkout [specify which branch]  
+- switches you to whatever banch you want to switch to.
+
+Make changes and develop you code.  
+$ git add -A  
+$ git commit -m "message"  
+- now it's ready for you make a pull request, but before you do that, go back to master and make sure that the code hasn't change since your last pull.  
+$ git checkout master  
+- switches back to master  
+$ git pull
+- to update to current code  
+$ git checkout [name of the branch you just completed updating.  
+$ git merge master
+- will take all the changes & update of master  and try to merge into [designated branch]
+
+Merge conflitch  
+- go back to file and manually resolve the differences.  
+$ git status  
+$ git add -A  
+$ git commit -m "message"  
+$ git push   
+- now the branch is pushed up to Github repo  
+- review and comment.  
+- the merge
+
+
+
