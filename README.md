@@ -23,8 +23,8 @@ $git add -A
 $git commit -m "[your commit message]"  
   - means you are locking it it, it is committing to the change, and ready into what will be pushed, -m is the message.  
 
-To Exit Strange zone b/c of No message
-  - esc:wq
+esc:wq
+  - To Exit Strange zone b/c of No message
 
 $git push   
   - going to take anything committed locally and add it to the remote repo.  
@@ -69,12 +69,13 @@ $ git push -u origin master
 
 <br>
 
-<stron>Merge Conflicts</stron>
+<strong>Merge Conflicts</strong>
 
 Manually revise the conflict, save file, enter 
-$ git add -A
-$ git commit"    [with no comment]
-$ git push
+
+$ git add -A  
+$ git commit"    [with no comment]  
+$ git push  
 
 If ever in the strange zone after commiting with out message:
 hit esc:wq
@@ -84,6 +85,7 @@ hit esc:wq
 <strong>Pull Requests</strong>
 
 $ git pull  
+
 $ git branch  
 - lists all the branches
 
@@ -96,16 +98,22 @@ $ git checkout [specify which branch]
 Make changes and develop you code.  
 $ git add -A  
 $ git commit -m "message"  
-- now it's ready for you make a pull request, but before you do that, go back to master and make sure that the code hasn't change since your last pull.  
+Now it's ready for you make a pull request, but before you do that, go back to master and make sure that the code hasn't change since your last pull.  
+
 $ git checkout master  
-- switches back to master  
+- switches back to master 
+- 
 $ git pull
 - to update to current code  
-$ git checkout [name of the branch you just completed updating.  
+- 
+$ git checkout [name of the branch you just completed updating. 
+
 $ git merge master
 - will take all the changes & update of master  and try to merge into [designated branch]
 
-Merge conflitch  
+<br>
+
+<strong>Merge conflitch</strong>  
 - go back to file and manually resolve the differences.  
 $ git status  
 $ git add -A  
