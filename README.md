@@ -96,7 +96,7 @@ $ git branch [give a name for branch]
 $ git checkout [specify which branch]  
 - switches you to whatever banch you want to switch to.
 
-Make changes and develop you code.  
+[Make changes and develop you code as you have intended. ] 
 
 $ git add -A  
 $ git commit -m "message"  
