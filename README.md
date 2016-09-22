@@ -15,7 +15,7 @@
   - More commands found here = https://github.com/0nn0/ter)minal-mac-cheatsheet 
 <br> </br>
 
-Common Commands
+<strong>Common Commands</strong>
 
 $git clone [URL]  
   - makes a copy of the remote repo locally
@@ -39,7 +39,7 @@ $git commit -m "[your commit message]"
 $git push   
   - going to take anything committed locally and add it to the remote repo.  
 
-
+<br>
 <strong>Pushing up an existing local repo to a new github repo</strong>
 
 $ git init
