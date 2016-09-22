@@ -2,13 +2,13 @@
 
 <strong>Common Commands</strong>
 
-$git clone [URL]  
+$git clone [URL]   
   - downloads a copy of the remote repo locally
 
 $git pull   
   - downloads any changes made on the master remote repo and to update your local repo. 
 
-$git status  
+$git status   
   - shows a summary of files differences between the local repo & the remote 
 
 $git add [file name]  
