@@ -23,6 +23,9 @@ $git add -A
 $git commit -m "[your commit message]"  
   - means you are locking it it, it is committing to the change, and ready into what will be pushed, -m is the message.  
 
+To Exit Strange zone b/c of No message
+  - esc:wq
+
 $git push   
   - going to take anything committed locally and add it to the remote repo.  
   
@@ -50,19 +53,19 @@ $git push
 $ git init
 
 $ git add .  
-  # Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
+  - Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
   
 $ git commit -m "First commit"  
-  # Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
+  - Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
   
 $ git remote add origin remote repository URL  
-  # Sets the new remote
+  - Sets the new remote
   
 $ git remote -v  
-  # Verifies the new remote URL
+  - Verifies the new remote URL
   
 $ git push -u origin master  
-  # Pushes the changes in your local repository up to the remote repository you specified as the origin
+  - Pushes the changes in your local repository up to the remote repository you specified as the origin
 
 <br>
 
@@ -76,9 +79,9 @@ $ git push
 If ever in the strange zone after commiting with out message:
 hit esc:wq
 
+<br>
 
-
-Pull Requests
+<strong>Pull Requests</strong>
 
 $ git pull  
 $ git branch  
