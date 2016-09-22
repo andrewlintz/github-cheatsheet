@@ -41,8 +41,8 @@ $git push
   - cd .. = navigate up in hierachy  
   - ls = shortlisting  
   - More commands found here = https://github.com/0nn0/ter)minal-mac-cheatsheet 
-<br>
 
+<br>
 
 
 <strong>Pushing up an existing local repo to a new github repo</strong>
@@ -64,6 +64,7 @@ $ git remote -v
 $ git push -u origin master  
   # Pushes the changes in your local repository up to the remote repository you specified as the origin
 
+<br>
 
 <stron>Merge Conflicts</stron>
 
