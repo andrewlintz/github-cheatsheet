@@ -28,6 +28,18 @@ esc:wq
 
 $git push   
   - going to take anything committed locally and add it to the remote repo.  
+
+$ git branch  
+- lists all the branches
+
+$ git branch [give a NEW name for branch]  
+- makes a complete copy of the Master for you to work on.  
+
+$ git checkout [specify which branch]  
+- switches you to whatever banch you want to switch to.
+
+$ git merge master
+- will take all the changes & update of master and try to merge with [designated branch]
   
 <br>  
 
@@ -90,13 +102,13 @@ $ git pull
 $ git branch  
 - lists all the branches
 
-$ git branch [give a name for branch]  
+$ git branch [give a NEW name for branch]  
 - makes a complete copy of the Master for you to work on.  
 
 $ git checkout [specify which branch]  
 - switches you to whatever banch you want to switch to.
 
-[Make changes and develop you code as you have intended. ] 
+[Make the changes to develop the code as you have intended. ] 
 
 $ git add -A  
 $ git commit -m "message"  
@@ -108,7 +120,7 @@ $ git checkout master
 $ git pull
 - to update to current code  
 
-$ git checkout [name of the branch you just completed updating. 
+$ git checkout [name of the branch you just completed updating.] 
 
 $ git merge master
 - will take all the changes & update of master and try to merge with [designated branch]
