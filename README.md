@@ -82,9 +82,10 @@ hit esc:wq
 
 <br>
 
-<strong>Pull Requests</strong>
+<strong>Make Pull Requests: to improve code base</strong>
 
 $ git pull  
+- to be up-to-date on code base
 
 $ git branch  
 - lists all the branches
@@ -96,25 +97,27 @@ $ git checkout [specify which branch]
 - switches you to whatever banch you want to switch to.
 
 Make changes and develop you code.  
+
 $ git add -A  
 $ git commit -m "message"  
 Now it's ready for you make a pull request, but before you do that, go back to master and make sure that the code hasn't change since your last pull.  
 
 $ git checkout master  
 - switches back to master 
-- 
+
 $ git pull
 - to update to current code  
-- 
+
 $ git checkout [name of the branch you just completed updating. 
 
 $ git merge master
-- will take all the changes & update of master  and try to merge into [designated branch]
+- will take all the changes & update of master and try to merge with [designated branch]
 
 <br>
 
 <strong>Merge conflitch</strong>  
-- go back to file and manually resolve the differences.  
+
+Go back to file and manually resolve the differences.  
 $ git status  
 $ git add -A  
 $ git commit -m "message"  
