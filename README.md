@@ -81,6 +81,20 @@ $ git push -u origin master
 
 <br>
 
+<strong>Create a New Branch</strong>
+
+$ git branch [name of new branch]  
+- Locally make New Branch  
+
+$ git checkout [name of new branch]
+- switches to new branch
+
+$ git push -u origin [name of new branch]
+- Sets up remote with new branch
+
+
+<br>
+
 <strong>Merge Conflicts</strong>
 
 Manually revise the conflict, save file, enter 
@@ -138,5 +152,9 @@ $ git push
 - review and comment.  
 - the merge
 
+<br>
 
+<strong> Delete Branch Locally </strong>
+
+$ git branch -d [name of branch]
 
